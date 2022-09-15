@@ -3,9 +3,13 @@
 Template for creating ds simple projects
 
 ## Requirements
-
-- pyenv
-- python==3.9.8
+```sh
+pyenv local 3.9.8
+python -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+```
 
 ## Setup
 
